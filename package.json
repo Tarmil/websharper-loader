@@ -1,0 +1,23 @@
+{
+  "name": "websharper-loader",
+  "version": "0.1.0",
+  "description": "Loader for WebSharper",
+  "main": "loader.js",
+  "repository": "https://github.com/dotnet-websharper/webpack-loader",
+  "author": "WebSharper",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  },
+  "files": [
+    "loader.js"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
